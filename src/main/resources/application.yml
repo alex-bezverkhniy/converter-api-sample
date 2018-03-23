@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+---
+spring:
+  profiles: local
+
+---
+spring:
+  profiles: heroku
+
+server:
+  port: 80
+ 
