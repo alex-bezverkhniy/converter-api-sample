@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.ResponseBody
 @RequestMapping(value = "/api/convert")
 @EnableAutoConfiguration
 class ConverterApi {
+
     private static final Logger logger = LoggerFactory.getLogger(ConverterApi.class)
 
     private static final float RATE = 1.8000
