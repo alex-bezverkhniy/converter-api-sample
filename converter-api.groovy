@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory
 import groovy.json.*
 import static spark.Spark.*
 
+
 def toJson = {JsonOutput.toJson(it)} as spark.ResponseTransformer
 Logger logger = LoggerFactory.getLogger("Main")
 float RATE = 1.8000
