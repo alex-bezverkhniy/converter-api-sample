@@ -1,1 +1,1 @@
-web: groovy converter-api.groovy
+web: groovy -Dserver.port=$PORT converter-api.groovy

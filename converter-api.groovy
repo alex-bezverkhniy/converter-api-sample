@@ -1,5 +1,5 @@
-@Grab('org.springframework.boot:spring-boot-starter-web:1.1.7.RELEASE')
-@Grab('org.springframework.boot:spring-boot-starter-actuator:1.1.7.RELEASE')
+@Grab('org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE')
+@Grab('org.springframework.boot:spring-boot-starter-actuator:2.0.0.RELEASE')
 
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
