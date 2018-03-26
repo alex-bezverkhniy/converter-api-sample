@@ -11,6 +11,7 @@ Logger logger = LoggerFactory.getLogger("Main")
 float RATE = 1.8000
 int GAP = 32
 
+port(System.getenv("PORT") ?: 4567)
 
 get("/health", {req, res ->
     return [status: "UP"]
